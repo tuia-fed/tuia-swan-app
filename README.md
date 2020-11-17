@@ -10,7 +10,7 @@
 - 创建广告位，在后台获取 appKey、adslotId
 - 在广告入口处通过api打开推啊小程序
 
-部分代码如下：
+### 部分代码如下
 
 ```javascript
 swan.navigateToSmartProgram({
@@ -29,4 +29,4 @@ swan.navigateToSmartProgram({
 })
 ```
 
-关于的 swan.navigateToSmartProgram 的[https://smartprogram.baidu.com/docs/develop/api/open/swan-navigateToSmartProgram/](官方文档)
+关于的 swan.navigateToSmartProgram 的[官方文档](https://smartprogram.baidu.com/docs/develop/api/open/swan-navigateToSmartProgram/)
