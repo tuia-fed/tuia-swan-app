@@ -18,7 +18,7 @@ swan.navigateToSmartProgram({
   path: 'pages/index/index',
   extraData: {
     appKey: '媒体的appKey',
-    adslotId: '媒体在此处申请的adslotId',
+    adslotId: '媒体申请的adslotId',
   },
   success () {
     // 打开成功的回调
