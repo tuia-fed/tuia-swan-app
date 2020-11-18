@@ -4,8 +4,8 @@
 
 - 媒体小程序通过api直接打开推啊小程序
 - 推啊小程序参数如下：
--- appID：22974620
--- path：
+- appID：22974620
+- path：
 
 ### 对接流程
 
@@ -36,8 +36,8 @@ swan.navigateToSmartProgram({
 
 ## 对接类型【2】：媒体小程序内使用WebView组件打开推啊互动广告活动
 ### 业务域名添加
-- 提供给推啊，您的小程序业务域名校验文件，下载位置如截图：
-- 推啊完成校验文件配置后，需要您在小程序后台添加推啊的业务域名：
+- 提供给推啊，您的小程序业务域名校验文件，下载位置如截图：![image](https://github.com/leileiz1010/tuia-swan-app/blob/master/%E7%99%BE%E5%BA%A6%E5%B0%8F%E7%A8%8B%E5%BA%8F-%E6%A0%A1%E9%AA%8C%E6%96%87%E4%BB%B6.png)
+- 推啊完成校验文件配置后，需要您在小程序后台添加推啊的业务域名：![image](https://github.com/leileiz1010/tuia-swan-app/blob/master/%E7%99%BE%E5%BA%A6%E5%B0%8F%E7%A8%8B%E5%BA%8F-%E4%B8%9A%E5%8A%A1%E5%9F%9F%E5%90%8D.png)
 - 推啊业务域名：请联系推啊技术支持为您提供相应的域名
 
 ### 基础实现代码样例
