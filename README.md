@@ -42,11 +42,14 @@ swan.navigateToSmartProgram({
 
 ### 基础实现代码样例
 #### wxml
+```
 <view>
   <web-view src="{{url}}" binderror="loadError" bindload="loadSuccess" />
 </view>
+```
 
 #### 方式一：js（通过appKey和adslotId方式打开）
+```
 Page({
   data: {
     url: '',
@@ -85,7 +88,9 @@ Page({
     wx.hideLoading()
   }
 })
+```
 #### 方式二：js（通过媒体后台获取URL方式） URL类似如下： https://engine.aoclia.com/index/activity?appKey=appKey&adslotId=adslotId
+```
   Page({
     data: {
       url: '',
@@ -108,5 +113,6 @@ Page({
       wx.hideLoading()
     }
   })
+  ```
 #### 测试
 - 对接完成后请体验整个广告流程（WebView 打开推啊活动 -> 参加活动 -> 点击各类券 -> 进入落地页），如反复检验后仍有问题请联系推啊开发
