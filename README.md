@@ -45,6 +45,7 @@ swan.navigateToSmartProgram({
 <view>
   <web-view src="{{url}}" binderror="loadError" bindload="loadSuccess" />
 </view>
+
 #### 方式一：js（通过appKey和adslotId方式打开）
 Page({
   data: {
