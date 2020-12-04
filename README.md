@@ -4,7 +4,7 @@
 
 - 媒体小程序通过api直接打开推啊小程序
 - 推啊小程序参数如下：
-- appID：22974620
+- appKey：iy32eLnt6SDHyj07jcXsb7ri2zyUHoDD
 - path：/pages/index/index
 
 ### 对接流程
